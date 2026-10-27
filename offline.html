@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>N Space — Offline</title>
+<meta name="theme-color" content="#ffffff" />
+<style>
+  *{margin:0;box-sizing:border-box;font-family:-apple-system,'Segoe UI',Inter,sans-serif}
+  body{min-height:100dvh;display:grid;place-items:center;background:linear-gradient(180deg,#f4f8fe,#e8effc);color:#0e2149;padding:20px}
+  .card{background:rgba(255,255,255,.9);border:1px solid rgba(15,45,110,.08);border-radius:24px;box-shadow:0 24px 60px rgba(23,55,130,.14);padding:36px 30px;text-align:center;max-width:420px}
+  .logo{width:64px;height:64px;margin:0 auto 14px;border-radius:18px;background:linear-gradient(135deg,#2563eb,#7c3aed);display:grid;place-items:center;color:#fff;font-size:30px;font-weight:800}
+  h1{font-size:21px;letter-spacing:-.02em}
+  p{color:#5a6f95;font-size:14px;line-height:1.6;margin:10px 0 20px}
+  button{background:linear-gradient(120deg,#276ef1,#7c3aed);color:#fff;border:none;font-size:14px;font-weight:700;border-radius:13px;padding:12px 24px;cursor:pointer;box-shadow:0 10px 24px rgba(50,90,220,.35)}
+  small{display:block;margin-top:14px;color:#93a5c6;font-size:12px}
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="logo">N</div>
+    <h1>You're offline</h1>
+    <p>📡 No internet connection right now. Your applicants, cases and chats are saved on this device — open the installed app and keep working; everything syncs when you reconnect.</p>
+    <button onclick="location.reload()">Try Again</button>
+    <small>N Space v1.1.0 · PWA Offline Mode</small>
+  </div>
+</body>
+</html>
